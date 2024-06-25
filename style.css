@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Open+Sans:wght@600&family=Phudu:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+section{
+    width: auto;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left,
+.right {
+    flex: 1;
+    height: 100%;
+}
+
+.left {
+    background-color:brown;
+}
+
+.right {
+    background-color:skyblue;
+}
+.welcome{
+    color: rebeccapurple;
+    text-align: center;
+    
+    font-weight: bold;
+    font-family: 'Phudu', sans-serif;
+  
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+
+img{
+    width: 350px;
+    height: 350px;
+    width: 350px;
+    animation: rotation 6s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.welcomes{
+    color: rebeccapurple;
+    text-align: center;
+    
+    font-weight: bold;
+    font-family: 'Phudu', sans-serif;
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.Customer{
+    color: rebeccapurple;
+    text-align: center;
+    
+    font-weight: bold;
+    font-family: 'Phudu', sans-serif;
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.donut{
+    color: rebeccapurple;
+    text-align: center;
+    
+    font-weight: bold;
+    font-family: 'Phudu', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 64.6%;
+    left: 41.8%;
+    transform: rotate(35deg); 
+}
+
+.yummy{
+    color: rebeccapurple;
+    text-align: center;
+    
+    font-weight: bold;
+    font-family: 'Phudu', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 13%;
+    left: 42%;
+    transform: rotate(35deg);
+}
+
+  
+  path {
+    fill: transparent;
+  }
+  
+  text {
+    fill: #FF9800;
+  }
+
+
+.triangle{
+        width: 50px; /* set the width of the square */
+        height: 50px; /* set the height of the square */
+        border: 21px solid black; /* set the border style of the square */
+        border: 6px solid hotpink;
+        box-sizing: border-box; /* include the border in the element's dimensions */
+        margin-left: 50px;
+        margin-top: 500px;
+        transform: rotate(75deg);
+    
+}
+
+.triangle2{
+    width: 50px; /* set the width of the square */
+    height: 50px; /* set the height of the square */
+    border: 21px solid black; /* set the border style of the square */
+    border: 6px solid sandybrown;
+    box-sizing: border-box; /* include the border in the element's dimensions */
+    margin-left: 550px;
+    margin-top: 20px;
+    
+    transform: rotate(75deg);
+
+}
+
+.triangle3{
+    width: 50px; /* set the width of the square */
+    height: 50px; /* set the height of the square */
+    border: 21px solid black; /* set the border style of the square */
+    border: 6px solid lightblue;
+    box-sizing: border-box; /* include the border in the element's dimensions */
+    margin-left: 50px;
+    margin-top: 15px;
+    transform: rotate(75deg);
+
+}
+
+.triangle4{
+width: 50px; /* set the width of the square */
+height: 50px; /* set the height of the square */
+border: 21px solid pink; /* set the border style of the square */
+border: 6px solid pink;
+box-sizing: border-box; /* include the border in the element's dimensions */
+margin-left: 550px;
+margin-top: 500px;
+
+transform: rotate(75deg);
+
+}
+
+ul.nav {
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-family: 'Phudu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #277792;
+    text-decoration: none;
+    
+}
+ul.nav li {
+    /* you can change the border color matching to your background color */
+    float:left;
+}
+ul.nav a {
+    
+    padding:0 18px;
+    text-decoration:none;
+    font-family: 'Phudu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #277792;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+    color: #000;
+    border-radius: 20px;
+}
+
+ul.nav2 {
+    margin-left: 180px;
+    margin-top: 20px;
+    padding:0;
+    list-style:none;
+    font-family: 'Phudu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    
+    text-decoration: none;
+    
+}
+ul.nav2 li {
+    /* you can change the border color matching to your background color */
+    float:left;
+}
+ul.nav2 a {
+    
+    padding:0 18px;
+    text-decoration:none;
+    font-family: 'Phudu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #f0ff64;
+}
+ul.nav2 a:hover,
+ul.nav2 li.current a {
+    color: #000;
+    border-radius: 20px;
+}
